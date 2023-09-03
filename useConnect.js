@@ -1,4 +1,4 @@
-const { ipcRenderer } = require('electron');
+const { ipcRenderer } =  window.electron;;
 const { useEffect, useState } = require('react');
 
 // Used in Renderer process
